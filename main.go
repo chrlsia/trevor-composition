@@ -45,4 +45,22 @@ func main() {
 	}
 
 	volvoXC90.show()
+
+	fmt.Println()
+
+	teslaModelX:=Car{
+		Make:"Tesla",
+		Model:"Model X",
+		Year: 2021,
+		isElectric: true,
+		isHybrid: false,
+		Vehicle: suv,
+	}
+
+	teslaModelX.show()
+
+	teslaModelX.Vehicle.NUmberOfPassengers =7
+	fmt.Println()
+
+	teslaModelX.show()
 }
